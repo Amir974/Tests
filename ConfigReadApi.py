@@ -1,6 +1,6 @@
 import ConfigParser
 Config = ConfigParser.ConfigParser()
-Config.read("C:\Users\User\Documents\GitHub\Tests\config.ini")
+Config.read("<<<PATH>>>")
 def ConfigSectionMap(section):
     dict1 = {}
     options = Config.options(section)
